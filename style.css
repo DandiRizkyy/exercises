@@ -1,0 +1,14 @@
+h1 {
+    color: blueviolet;
+    text-align: center;
+}
+
+h2 {
+    color: aquamarine;
+    text-align: right;
+}
+
+h3 {
+    color: brown;
+    text-align: left;
+}
