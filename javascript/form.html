@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+
+            document.querySelector('form').onsubmit = function(){
+                const name = document.querySelector('#nama').value;
+                alert(`Hello, ${name}!`);    
+        };
+    });
+    </script>
+</head>
+<body>
+    <h1>Hello!</h1>
+    <form>
+        <input autofocus id="nama" placeholder="input nama disini" type="text">
+        <input type="submit">
+    </form>
+</body>
+</html>
